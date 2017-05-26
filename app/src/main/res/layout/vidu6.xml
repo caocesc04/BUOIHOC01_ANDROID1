@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:text="LOREM IPSUM"
+        android:textSize="22sp"
+        android:layout_width="190dp"
+        android:layout_height="70dp" />
+    <Button
+        android:text="SOMETHING"
+        android:textSize="22sp"
+        android:layout_width="190dp"
+        android:layout_height="70dp"/>
+    <Button
+        android:text="IPSUM DOLOR SIT AMET"
+        android:textSize="22sp"
+        android:layout_columnSpan="2"
+        android:layout_width="380dp"
+        android:layout_height="70dp"/>
+
+    <Button
+        android:text="IPSUM YES"
+        android:textSize="22sp"
+        android:layout_width="190dp"
+        android:layout_height="70dp"/>
+    <Button
+        android:text="SOME THING"
+        android:textSize="22sp"
+        android:layout_width="190dp"
+        android:layout_height="70dp"/>
+    <Button
+        android:text="HELLOWORLD"
+        android:textSize="22sp"
+        android:layout_width="190dp"
+        android:layout_height="70dp"/>
+    <Button
+        android:text="YES YES YES"
+        android:textSize="22sp"
+        android:layout_rowSpan="2"
+        android:layout_width="190dp"
+        android:layout_height="230dp" />
+    <Button
+        android:text="LOREM IPSUM
+DOLOR SIT"
+        android:layout_rowSpan="2"
+        android:textSize="22sp"
+        android:layout_width="190dp"
+        android:layout_height="230dp" />
+
+    <Button
+        android:text="DOLOR DOLOR"
+        android:textSize="22sp"
+        android:layout_width="190dp"
+        android:layout_height="70dp"/>
+
+</GridLayout>

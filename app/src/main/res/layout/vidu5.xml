@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:stretchColumns="*"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_span="3"
+            android:text="This is Row 1"
+            android:textSize="22sp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:text="Row 2
+Colums 1"
+            android:textSize="22sp"/>
+        <TextView
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:text="Row 2
+Colums 2"
+            android:textSize="22sp"/>
+        <TextView
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:text="Row 2
+Colums 3"
+            android:textSize="22sp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:text="Row 3
+Colums 1"
+            android:textSize="22sp"/>
+        <TextView
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:text="Row 3
+Colums 2"
+            android:textSize="22sp"/>
+        <TextView
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:text="Row 3
+Colums 3"
+            android:textSize="22sp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_span="2"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:text="Row 4
+Colums 1"
+            android:textSize="22sp"/>
+        <TextView
+            android:id="@+id/textView"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="Row 4
+Colums 2"
+            android:textSize="22sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_span="3"
+            android:gravity="center"
+            android:background="@drawable/custom_button"
+            android:text="Row 5
+Colums 1"
+            android:textSize="22sp"/>
+    </TableRow>
+</TableLayout>

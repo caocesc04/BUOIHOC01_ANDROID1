@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BUOIHOC01_ANDROID</string>
+    <string name="button1">BUTTON</string>
+    <string name="button2">BUTTON</string>
+    <string name="button3">BUTTON</string>
+    <string name="button4">BUTTON</string>
+    <string name="edt.to">To</string>
+    <string name="edt.subject">Subject</string>
+    <string name="edt.mes">Messages</string>
+    <string name="btn.send">Send Mail</string>
+    <string name="btn1.vd3">BUTTON1</string>
+    <string name="btn2.vd3">BUTTON2</string>
+    <string name="btn3.vd3">BUTTON3</string>
+    <string name="btn4.vd3">BUTTON4</string>
+    <string name="btn5.vd3">5</string>
+    <string name="btn6.vd3">BUTTON6</string>
+    <string name="btn7.vd3">BUTTON7</string>
+    <string name="btn8.vd3">BUTTON8</string>
+    <string name="btn9.vd3">BUTTON9</string>
+</resources>

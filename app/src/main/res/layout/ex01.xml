@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ex01" />
+    <TextView
+        android:id="@+id/txtv0"
+        android:textSize="16sp"
+        android:text="Toyota Corolla altis 1.8 AT 2016, đủ màu, giá tốt và ưu đãi hấp dẫn nhất Miền Bắc. Liên hệ đặt xe ngay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"/>
+    <TextView
+        android:id="@+id/txtv01"
+        android:text="3 tỉ 579 triệu"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="27sp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv0"
+        />
+    <TextView
+        android:id="@+id/txtv1"
+        android:text="Mã tin"
+        android:textSize="27sp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv01"
+        />
+    <TextView
+        android:id="@+id/txtv2"
+        android:text="Địa điểm"
+        android:textSize="27sp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv1"
+        />
+    <TextView
+        android:id="@+id/txtv3"
+        android:text="Tình trạng xe"
+        android:textSize="27sp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv2"
+        />
+    <TextView
+        android:id="@+id/txtv4"
+        android:text="Xuất xứ"
+        android:textSize="27sp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv3"
+        />
+    <TextView
+        android:id="@+id/txtv5"
+        android:text="Kiểu dáng"
+        android:textSize="27sp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv4"
+        />
+    <TextView
+        android:id="@+id/txtv6"
+        android:text="Năm sản xuất"
+        android:textSize="27sp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv5"
+        />
+    <TextView
+        android:id="@+id/txtv7"
+        android:text="Ngày đăng"
+        android:textSize="27sp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv6"
+        />
+    <TextView
+        android:id="@+id/txtv8"
+        android:text="260412"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="27sp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv01"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:id="@+id/txtv9"
+        android:text="Hà Nội"
+        android:textSize="27sp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv1"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:id="@+id/txtv10"
+        android:text="Mới"
+        android:textSize="27sp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv2"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:id="@+id/txtv11"
+        android:text="Trong nước"
+        android:textSize="27sp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv3"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:id="@+id/txtv12"
+        android:text="Sport"
+        android:textSize="27sp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv4"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:id="@+id/txtv13"
+        android:text="2016"
+        android:textSize="27sp"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv5"
+        android:layout_alignParentEnd="true" />
+    <TextView
+    android:id="@+id/txtv14"
+    android:text="26/04/2012"
+        android:textSize="27sp"
+    android:layout_width="195dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/txtv6"
+    android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/btn1"
+        android:text="Chi Phí Lăn Bánh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtv8"
+        android:layout_below="@+id/txtv0"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/txtv01" />
+</RelativeLayout>
